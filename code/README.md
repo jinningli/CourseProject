@@ -1,19 +1,8 @@
-# CS410 Course Project - Text Classification Competition: Twitter Sarcasm Detection
+# Text Classification Competition: Twitter Sarcasm Detection
 
-###  Team name: Salty Fish
-#### Team captain:
-Name: Jinning Li         NetID: jinning4
-#### Team member 1:
-Name:  Jialong Yin      NetID: jialong2
-#### Team member 2:
-Name: Jianzhe Sun    NetID: jianzhe2
+## Evaluate Model and Ensemble
 
-## Code Manual
-> Source code can be found in `./code`
-
-### Evaluate Model and Ensemble
-
-#### Download pre-trained model
+#### Download pre-trained model for our method
 
 Download `checkpoint.zip` from https://drive.google.com/file/d/1nRucz1yDqyoYR8jLeP6fKZt8FpqJBBUA/view?usp=sharing
 ```
@@ -40,7 +29,7 @@ python3 ensemble.py
 
 `--device` GPU device to use
 
-### Train Model
+## Train Model
 
 #### Start Training with Validation and Evaluation
 ```
@@ -76,7 +65,7 @@ python3 main.py --device 2 --lr 2e-5 --epochs 20
 
 `--device` GPU device to use
 
-### Appendix: Competetion Data Format
+## Appendix: Competetion Data Format
 
 Each line contains a JSON object with the following fields :
 - ***response*** :  the Tweet to be classified
