@@ -8,6 +8,11 @@ Name:  Jialong Yin      NetID: jialong2
 #### Team member 2:
 Name: Jianzhe Sun    NetID: jianzhe2
 
+## Video
+**The video to introduce our method and the usage of code can be found in Youtube https://youtu.be/eSR7B8TYnJY**
+
+> It's not uploaded to github because it exceeds 100 MB.
+
 ## Code Manual
 > Source code can be found in `./code`
 
